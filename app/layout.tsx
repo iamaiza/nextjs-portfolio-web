@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+      </head>
+      <body >{children}</body>
     </html>
   );
 }
